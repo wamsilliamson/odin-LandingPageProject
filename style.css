@@ -94,10 +94,13 @@ img {
 
 .quote {
  flex: 1 0 auto;
+ width: 50%;
 }
 
 .quote-subtext {
  font-style: normal;
  font-size: 18px;
  font-weight: bold;
+ align-self: flex-end;
+ padding-right: 30%;
 }
