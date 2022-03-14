@@ -82,10 +82,14 @@ li {
 .hero-image img {
  position: relative;
  height: 250px;
- max-width: 300px;
  flex: 1;
  right: 0;
  bottom: 0;
+}
+
+img {
+ max-width: 100%;
+ object-fit: contain;
 }
 
 .hero-text {
@@ -122,8 +126,7 @@ li {
  margin-bottom: 64px;
 }
 
-.card-container img {
- height: 200px;
+.card img {
  width: 200px;
  border: solid 2px black;
  border-radius: 1em;
